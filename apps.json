@@ -1,19 +1,52 @@
 {
-  "posts": [
+  "apps": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "app1",
+      "url": "http://app1.ru",
+      "healthy": false
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "app2",
+      "url": "http://app2.ru",
+      "healthy": false
+    },
+    {
+      "id": 3,
+      "name": "app3",
+      "url": "http://app3.ru",
+      "healthy": false
+    },
+    {
+      "healthy": false,
+      "name": "app4",
+      "url": "https://ya.ru",
+      "id": 6
+    },
+    {
+      "healthy": false,
+      "name": "fsfs",
+      "url": "dafa",
+      "id": 7
+    },
+    {
+      "healthy": false,
+      "name": "fsfs",
+      "url": "dafa",
+      "id": 8
+    },
+    {
+      "healthy": false,
+      "name": "fsfs",
+      "url": "dafa",
+      "id": 9
+    },
+    {
+      "healthy": false,
+      "name": "fsfs",
+      "url": "dafa",
+      "id": 10
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
